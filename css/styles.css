@@ -120,6 +120,12 @@ p{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contacts-item:hover,
+.contacts-item:focus{
+    color: #4D5AE5;
 }
 
 .herro{
