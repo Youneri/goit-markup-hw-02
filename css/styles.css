@@ -102,7 +102,6 @@ body{
 }
 
 .contacts-item{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -118,9 +117,6 @@ body{
     background-color: var(--nuvy-blue);
 }
 
-.features-title{
-    color: var(--white);
-}
 
 .category-title{
     color: var(--white);
@@ -145,7 +141,14 @@ body{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border: 1px solid var(--iris);
 }
+.content-item:hover,
+.content-item:focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
+.content-item:active{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
 .team{
     background-color: var(--cloud);
 }
